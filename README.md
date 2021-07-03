@@ -45,4 +45,4 @@ This is The Final Project of the "Java and Uml Programming" Course as a part of 
 • Reham ElTagoury
 
 ## NOTE:
-   If the relative paths didn;t work please change it to your Absolute paths
+   If the relative paths didn't work please change it to your Absolute paths
