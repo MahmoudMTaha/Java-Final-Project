@@ -3,6 +3,7 @@ package com.example.WuzzufWS.restservice;
 import com.example.WuzzufWS.LoadData.ReadingCSV;
 import com.example.WuzzufWS.LoadData.WuzzufEmpolyee;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import smile.data.DataFrame;
 import smile.data.vector.StringVector;
@@ -13,7 +14,7 @@ import java.util.List;
 @RestController
 public class FactorizedYearsofExpController {
     @GetMapping("/yearsofexp")
-    public String YearsofExp(){
+    public String YearsofExp(@RequestParam(value= "limit", defaultValue = "5" )int limit){
         ReadingCSV employsFile = new ReadingCSV();
         DataFrame Wuzzufdf = employsFile.readCSV("src/main/resources/Wuzzuf_Jobs.csv");
 
@@ -52,7 +53,7 @@ public class FactorizedYearsofExpController {
         }
 
         Wuzzufdf=Wuzzufdf.merge(StringVector.of("FactorizedYearsofExp", (newcol)));
-        Object[] out = Wuzzufdf.stream().toArray();
+        Object[] out = Wuzzufdf.stream().limit(limit).toArray();
         return  Arrays.deepToString(out);
     }
 
