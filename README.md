@@ -26,9 +26,9 @@ This is The Final Project of the "Java and Uml Programming" Course as a part of 
 
     10. Print skills one by one and how many each repeated and order the output to find out the most important skills required?
 
-    11. Factorize the YearsExp feature and convert it to numbers in new col. (Bounce )
+    11. Factorize the YearsExp feature and convert it to numbers in new col. (Bonus )
 
-    12. Apply K-means for job title and companies (Bounce )
+    12. Apply K-means for job title and companies (Bonus )
 
 
 ## Dataset
