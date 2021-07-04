@@ -15,7 +15,7 @@ public class FactorizedYearsofExpController {
     @GetMapping("/yearsofexp")
     public String YearsofExp(){
         ReadingCSV employsFile = new ReadingCSV();
-        DataFrame Wuzzufdf = employsFile.readCSV("D:\\ITI\\java\\Java-Final-Project-main\\wuzzufWS\\src\\main\\resources\\Wuzzuf_Jobs.csv");
+        DataFrame Wuzzufdf = employsFile.readCSV("src/main/resources/Wuzzuf_Jobs.csv");
 
         Wuzzufdf = Wuzzufdf.omitNullRows();
         String[] values =new String[Wuzzufdf.size()];

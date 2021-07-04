@@ -15,7 +15,8 @@ public class GreetingController {
                 "  <br>  to get the most popular job titles use <b>/popularjob</b>  ||  to show it use <b>/jobbarchart</b> <br>" +
                 "to get the most demanding companies for jobs use <b>/companies</b> ||  to show it use <b>/companypiechart</b> <br>"  +
                 "to get the most popular areas use <b>/populararea</b> || to show it use <b>/areabarchart</b> <br>" +
-                "to get the most important skills required use <b>/mostrequiredskills</b>" +
+                "to get the most important skills required use <b>/mostrequiredskills</b><br>" +
+                "to get the Factorized data with Factorized YearsExp feature use <b> /yearsofexp</b><br>" +
                 "<h3>Team Members:</h3> <h4> Amira Mohammed </h4> " +
                 "<h4> Reham ElTagoury</h4> " +
                 "<h4> Mahmoud Taha</h4>";
