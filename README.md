@@ -35,8 +35,8 @@ This is The Final Project of the "Java and Uml Programming" Course as a part of 
     Wuzzuf jobs in Egypt data set at Kaggle
     https://www.kaggle.com/omarhanyy/wuzzuf-jobs
 ## Repo Consist of:
-   ## [Web Service project](https://github.com/MahmoudMTaha/Java-Final-Project/tree/main/WebClient)
-   ## [Test Client Project](https://github.com/MahmoudMTaha/Java-Final-Project/tree/main/wuzzufWS)
+   ### [Web Service project](https://github.com/MahmoudMTaha/Java-Final-Project/tree/main/wuzzufWS)
+   ### [Test Client Project](https://github.com/MahmoudMTaha/Java-Final-Project/tree/main/WebClient)
     
 ## Team Members:
 
